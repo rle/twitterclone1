@@ -18,9 +18,9 @@
    <tt>ruby show_persons.rb</tt>
    The following must be displayed
 
-   @dhh --> [2] obie unclebob
-   @obie --> [1] unclebob
-   @unclebob --> [2] noob1 noob2
+   <tt>@dhh --> [2] obie unclebob</tt>
+   <tt>@obie --> [1] unclebob</tt>
+   <tt>@unclebob --> [2] noob1 noob2</tt>
 
 == Notes
 
