@@ -2,22 +2,22 @@
 
 == Minimum Requirements
 * Maglev must be installed
-* If you are using RVM, remember to
-  rvm use maglev
+* If you are using RVM, remember to <tt>rvm use maglev</tt>
 
 == Running it
 
 1. Run
-   ruby initialise_repo.rb
+   <tt>ruby initialise_repo.rb</tt>
    This creates a persistent Person class and sets up the initial empty array
 2. Run
-   ruby show_persons.rb
+   <tt>ruby show_persons.rb</tt>
    An empty list must be returned
 3. Run
-   ruby add_persons.rb
+   <tt>ruby add_persons.rb</tt>
 4. Run
-   ruby show_persons.rb
+   <tt>ruby show_persons.rb</tt>
    The following must be displayed
+
    @dhh --> [2] obie unclebob
    @obie --> [1] unclebob
    @unclebob --> [2] noob1 noob2
