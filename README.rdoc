@@ -1,0 +1,27 @@
+= TwitterClone1
+
+== Minimum Requirements
+* Maglev must be installed
+* If you are using RVM, remember to
+  rvm use maglev
+
+== Running it
+
+1. Run
+   ruby initialise_repo.rb
+   This creates a persistent Person class and sets up the initial empty array
+2. Run
+   ruby show_persons.rb
+   An empty list must be returned
+3. Run
+   ruby add_persons.rb
+4. Run
+   ruby show_persons.rb
+   The following must be displayed
+   @dhh --> [2] obie unclebob
+   @obie --> [1] unclebob
+   @unclebob --> [2] noob1 noob2
+
+== Notes
+
+See the {presentation}[http://slideshare.com] on SlideShare for more details.
